@@ -1,0 +1,26 @@
+{
+  "zaidejas": {
+    "id": 1,
+    "pinigai": 1068,
+    "auksoGabaleliai": [],
+    "energija": 104,
+    "neigiamaEnergija": true
+  },
+  "parduotuve": {
+    "pack1": {
+      "id": 1,
+      "energija": 10,
+      "kaina": 50
+    },
+    "pack2": {
+      "id": 2,
+      "energija": 25,
+      "kaina": 115
+    },
+    "pack3": {
+      "id": 3,
+      "energija": 50,
+      "kaina": 200
+    }
+  }
+}
