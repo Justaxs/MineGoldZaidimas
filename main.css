@@ -1,0 +1,180 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+header, main, footer {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    background-color: #0064a7c2;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(134, 160, 167, 0.706);
+    padding: 10px 0;
+    gap: 1rem;
+}
+
+.mygtukas {
+    background-color: #844fcae0;
+    color: white;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    background-image: url("https://media.istockphoto.com/id/1449010610/vector/mine-tunnel-inside-view-cave-with-railway-rocks.jpg?s=612x612&w=0&k=20&c=nxDqDH9Uuhzjgr5F6TPU6Qm4BA0gB0nX8RCwr9c4XbM=");
+    background-position: center;
+    background-size: cover;
+    min-height: 675px;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 2rem 0;
+    padding-bottom: 2rem;
+    background-color: #fff;
+    
+}
+
+#parduotuve, #auksoPardavimas {
+    display: none;
+}
+
+h2 {
+    color: #7cf816e5;
+}
+
+.informacija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.auksoGabaleliai {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.auksas {
+    background-color: #b4b10faf;
+    border: 1px solid #2e2d2d;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+s
+.kasimoMygtukas, .pirkimoMygtukas, .pardavimoMygtukas {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.kasimoMygtukas {
+    background-color: rgb(8, 111, 151);
+    color: white;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.pirkimoMygtukas {
+    background-color: rgba(20, 20, 73, 0.904);
+
+}
+
+.pardavimoMygtukas {
+    background-color: rgb(226, 145, 23);
+}
+
+#energija {
+    display: inline-block;
+    min-width: 100px;
+    padding: 5px 10px;
+    background-color: #0ea333;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.parduotuvesPrekes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.energijosPaketas {
+    background-image: url("https://cdn.dribbble.com/users/1405795/screenshots/11482799/capsule_neststrix.png");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.energijosPaketas h3 {
+    font-weight: 900;
+    color: rgb(255, 45, 45);
+}
+
+.energijosPaketas span {
+    font-weight: 900;
+    color: rgb(129, 236, 255);
+}
+
+.auksoPardavimas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer h5 {
+    text-align: center;
+}
+
+@media (max-width: 880px) {
+.energijosPaketas {
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+.energijosPaketas {
+        width: 75%;
+    }
+.auksoGabaleliai {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+.energijosPaketas {
+            width: 75%;
+        }
+.auksoGabaleliai {
+            grid-template-columns: 1fr;
+        }
+}
