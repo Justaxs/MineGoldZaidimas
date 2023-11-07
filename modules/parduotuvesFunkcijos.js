@@ -32,6 +32,7 @@ export default function uzkrautiParduotuvesPrekes() {
         .then(duomenys => {
             // console.log(duomenys);
             const parduotuvesPrekes = Object.values(duomenys);
+            // console.log(parduotuvesPrekes);
             prekiuSukurimas(parduotuvesPrekes);
         })
 }
